@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
 
 namespace WebApplication6.Controllers
 {
@@ -8,7 +9,7 @@ namespace WebApplication6.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot","Hot23", "Sweltering", "Scorching"
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
